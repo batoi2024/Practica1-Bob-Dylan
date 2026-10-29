@@ -99,11 +99,12 @@ q { font-size: 24px; font-family: Georgia, 'Times New Roman', Times, serif; font
 .articulo main .cita { margin: 0 40px 10px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 22px; }
 .articulo main .firma-cita { margin: 0 40px 20px; font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; }
 .articulo main .referencia { margin-top: 60px; font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; }
-.pie-media .rojo a {
-    color: rgb(240, 93, 80); /* Color solicitado */
-    text-decoration: none;     /* Quita el subrayado predeterminado del enlace */
+.pie-media .rojo  {
+    color: rgb(240, 93, 80); 
+    text-decoration: none;     
     font-weight: 600;
 }
+.rojo {color: rgb(240, 93, 80); }
 /* Adaptacion a movil: no reduce el texto a una miniatura. */
 @media (max-width: 900px) {
   body { font-size: 16px; }
